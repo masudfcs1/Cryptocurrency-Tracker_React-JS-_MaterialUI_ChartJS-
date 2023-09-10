@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   App: {
-    backgroundColor: "#2c3c4c",
+    backgroundColor: "#061121",
     color: "white",
     minHeight: "100vh",
   },
@@ -23,7 +23,7 @@ const App = () => {
       <div className={classes.App}>
         <Header />
         <Route path="/" component={Homepages} exact />
-        <Route path="/coins/:id" component={CoinPage} exact />
+        <Route path="/coins/:id" component={CoinPage} />{" "}
       </div>{" "}
     </BrowserRouter>
   );
