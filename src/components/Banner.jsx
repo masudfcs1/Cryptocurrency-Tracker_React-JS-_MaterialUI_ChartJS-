@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { AppBar, Container, Typography } from "@material-ui/core";
+import { Container, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles({
   banner: {
